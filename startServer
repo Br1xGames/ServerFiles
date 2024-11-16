@@ -1,7 +1,0 @@
-public class MyProgram {
-
-    public static void main(String[] args) {
-        Runtime rt = Runtime.getRuntime();
-        Process pr = rt.exec("java -Xmx1024M -Xms1024M -jar D:\Serverfiles\server.jar nogui");
-    }
-}
